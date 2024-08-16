@@ -1,0 +1,23 @@
+.textShine {
+	background-size: 200% 200%;
+	animation: shine 2s linear infinite;
+}
+
+.textShine:hover {
+	font-size: 105%;
+	transition: font-size 0.5s;
+}
+
+.textColor:hover {
+	color: #fafafa;
+	stroke: #fafafa;
+}
+
+@keyframes shine {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -200% 0;
+	}
+}
