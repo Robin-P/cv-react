@@ -18,14 +18,12 @@ function Header() {
 						</h1>
 					</div>
 					<p className='mt-6 text-base text-zinc-600 dark:text-white text-justify'>
-						À la recherche d'une nouvelle opportunité suite à la fin de ma mission chez Doyield, je désire
-						orienter ma carrière vers la gestion de projet / leading d’équipes . Fort de mon bagage
-						technique, je suis en mesure d'appliquer aisément des méthodologies telles que la méthode agile,
-						d'évaluer chaque tâche et de superviser une équipe de développeurs tout en m’adaptant aux
-						demandes des clients. Je suis profondément convaincu de l'importance d'une communication
-						transparente, de la collaboration et de l'innovation. Mon objectif est de concrétiser des idées
-						ambitieuses en utilisant des solutions technologiques adaptées et une gestion de projet
-						rigoureuse.
+						Seeking a new opportunity following the conclusion of my mission at Doyield, I aim to steer my
+						career towards project management and team leadership. With a strong technical background, I can
+						easily apply methodologies such as Agile, assess each task, and oversee a team of developers
+						while adapting to client requests. I am deeply committed to transparent communication,
+						collaboration, and innovation. My goal is to bring ambitious ideas to life using appropriate
+						technological solutions and rigorous project management.
 					</p>
 					<div className='mt-6 flex flex-nowrap gap-6  my-6 items-center justify-center '>
 						<a
