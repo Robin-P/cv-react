@@ -8,7 +8,7 @@ function Timeline() {
 				<img
 					className='border border-black'
 					alt='Robin Pronnier'
-					src={window.location.origin + '/logos/doyield_logo.jpg'}
+					src={window.location.href + '/logos/doyield_logo.jpg'}
 				/>
 				<div className='text-box shadow-xl shadow-gray-500 border border-white'>
 					<h1 className='text-xl'>Lead Developer & Project Manager</h1>
@@ -43,7 +43,7 @@ function Timeline() {
 				<img
 					className='border border-black'
 					alt='Robin Pronnier'
-					src={window.location.origin + '/logos/capgemini_logo.jpg'}
+					src={window.location.href + '/logos/capgemini_logo.jpg'}
 				/>
 				<div className='text-box shadow-xl shadow-gray-500'>
 					<h1 className='text-xl'>DevOps Engineer</h1>
@@ -67,7 +67,7 @@ function Timeline() {
 				<img
 					className='border border-black'
 					alt='Robin Pronnier'
-					src={window.location.origin + '/logos/proposr_logo.jpg'}
+					src={window.location.href + '/logos/proposr_logo.jpg'}
 				/>
 				<div className='text-box shadow-xl shadow-gray-500'>
 					<h1 className='text-xl'>Lead Developer & Project Manager</h1>
@@ -95,7 +95,7 @@ function Timeline() {
 				<img
 					className='border border-black'
 					alt='Robin Pronnier'
-					src={window.location.origin + '/logos/mext_logo.jpg'}
+					src={window.location.href + '/logos/mext_logo.jpg'}
 				/>
 				<div className='text-box shadow-xl shadow-gray-500'>
 					<h1 className='text-xl'>Back-end Developer</h1>
@@ -118,7 +118,7 @@ function Timeline() {
 				<img
 					className='border border-black'
 					alt='Robin Pronnier'
-					src={window.location.origin + '/logos/groov_logo.jpg'}
+					src={window.location.href + '/logos/groov_logo.jpg'}
 				/>
 				<div className='text-box shadow-xl shadow-gray-500'>
 					<h1 className='text-xl'>Flutter Developer</h1>
@@ -148,7 +148,7 @@ function Timeline() {
 				<img
 					className='border border-black'
 					alt='Robin Pronnier'
-					src={window.location.origin + '/logos/wenow_logo.jpg'}
+					src={window.location.href + '/logos/wenow_logo.jpg'}
 				/>
 				<div className='text-box shadow-xl shadow-gray-500'>
 					<h1 className='text-xl'>Full-Stack Developer</h1>

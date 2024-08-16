@@ -26,7 +26,7 @@ export default function Portfolio() {
 						transform: `translateX(-${current * 100}%)`
 					}}>
 					{slides.map(s => {
-						return <img src={window.location.origin + '/captures/' + s} />;
+						return <img src={window.location.href + '/captures/' + s} />;
 					})}
 				</div>
 

@@ -9,7 +9,7 @@ function Header() {
 					<div className=' gap-2 grid lg:grid-cols-3 items-center lg:text-justify'>
 						<img
 							className='rounded-full w-40 h-40'
-							src={window.location.origin + '/profile_picture.jpg'}
+							src={window.location.href + '/profile_picture.jpg'}
 							alt='Robin Pronnier'
 						/>
 
@@ -73,7 +73,7 @@ function Header() {
 						</a>
 
 						<a
-							href={window.location.origin + '/CV Robin Pronnier.pdf'}
+							href={window.location.href + '/CV Robin Pronnier.pdf'}
 							className='group textColor inline-flex gap-1 items-center rounded-xl border border-neutral-800 text-sm px-2 py-2'
 							download>
 							<svg
