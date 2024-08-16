@@ -26,7 +26,7 @@ export default function Portfolio() {
 						transform: `translateX(-${current * 100}%)`
 					}}>
 					{slides.map(s => {
-						return <img src={window.location.href + '/captures/' + s} />;
+						return <img alt='Captures' src={window.location.href + '/captures/' + s} />;
 					})}
 				</div>
 
@@ -48,7 +48,7 @@ export default function Portfolio() {
 								}}
 								key={'circle' + i}
 								className={`rounded-full w-5 h-5 cursor-pointer  ${
-									i == current ? 'bg-white' : 'bg-gray-500'
+									i === current ? 'bg-white' : 'bg-gray-500'
 								}`}></div>
 						);
 					})}
